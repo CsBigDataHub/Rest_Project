@@ -13,7 +13,7 @@ public class MessageService {
 	
 	public MessageService() {
 		messages.put(1L, new Message(1,"Hello guys","ckip"));
-		messages.put(1L, new Message(2,"Hello world","BigData"));
+		messages.put(2L, new Message(2,"Hello world","BigData"));
 	}
 
 	public List<Message> getAllMessages() {
